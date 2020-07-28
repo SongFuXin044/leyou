@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78792762-8415-4193-8909-0ebf7b7a93ed" name="Default Changelist" comment="" />
+    <list default="true" id="78792762-8415-4193-8909-0ebf7b7a93ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +36,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1ezBJYoVwnr3Lb7YXicG0SAb42N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -162,12 +167,24 @@
       <workItem from="1595484530290" duration="4046000" />
       <workItem from="1595576028580" duration="243000" />
       <workItem from="1595657825987" duration="15203000" />
-      <workItem from="1595896645096" duration="2720000" />
+      <workItem from="1595896645096" duration="3501000" />
     </task>
+    <task id="LOCAL-00001" summary="Init leYou">
+      <created>1595907699219</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595907699219</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init leYou" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init leYou" />
   </component>
   <component name="WindowStateProjectService">
     <state x="595" y="172" key="#GatewayApplication" timestamp="1595494841502">
@@ -190,14 +207,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="725" y="408" width="516" height="223" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1595321563612" />
+    <state x="427" y="113" key="CommitChangelistDialog2" timestamp="1595907672260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="427" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595907672260" />
     <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1595907399225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595907399225" />
-    <state x="835" y="416" width="274" height="281" key="Github.ShareDialog" timestamp="1595907584244">
+    <state x="835" y="416" width="274" height="281" key="Github.ShareDialog" timestamp="1595907771263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="835" y="416" width="274" height="281" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595907584244" />
+    <state x="835" y="416" width="274" height="281" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595907771263" />
     <state width="1293" height="289" key="GridCell.Tab.0.bottom" timestamp="1595906574865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -238,6 +259,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595907383913" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1595913507392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595913507392" />
     <state x="759" y="301" key="chooseDestDirectoryDialog" timestamp="1595321638092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
