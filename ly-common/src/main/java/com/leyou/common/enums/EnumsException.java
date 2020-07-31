@@ -13,7 +13,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public enum EnumsException {
-    PIRCE_CANNOT_BE_NULL(400, "价格不能为空"),
+    CATEGORY_LIST_NOT_FOUND(404, "商品分类为空,未找到商品....."),
+    CATEGORY_ADD_ERROR(500,"新增分类失败,请稍后再试"),
+    DELETE_CATEGORY_ERROR(500,"删除失败,请稍后再试"),
+    UPDATE_CATEGORY_ERROR(500,"修改失败,请稍后再试")
     ;
     public int code; //状态码
     public String msg;//错误信息

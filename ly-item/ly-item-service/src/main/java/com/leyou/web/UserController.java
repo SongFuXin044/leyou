@@ -1,5 +1,6 @@
 package com.leyou.web;
 
+import com.leyou.mapper.CategoryMapper;
 import com.leyou.pojo.User;
 import com.leyou.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,6 +18,8 @@ import java.util.List;
 @RestController
 @RequestMapping("user")
 public class UserController {
+
+
     @Resource
     private UserService userService;
 
