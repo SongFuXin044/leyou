@@ -22,6 +22,7 @@ public class CategoryService {
     @Resource
     private CategoryMapper categoryMapper;
 
+
     /**
      * 根据父级Id进行分类查询
      * @param pid
@@ -71,5 +72,11 @@ public class CategoryService {
         if (result == 0){
             throw new lyException(EnumsException.UPDATE_CATEGORY_ERROR);
         }
+    }
+
+
+    public List<Category> queryByBrandId(Long bid) {
+        System.out.println("bid = " + bid);
+        return this.categoryMapper.queryByBrandId(bid);
     }
 }

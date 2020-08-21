@@ -1,11 +1,12 @@
 package com.leyou.pojo;
 
-import java.io.Serializable;
+import lombok.Data;
+import tk.mybatis.mapper.annotation.KeySql;
+
 import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import lombok.Data;
-import tk.mybatis.mapper.annotation.KeySql;
+import java.io.Serializable;
 
 @Data
 @Table(name = "tb_spec_param")
@@ -23,7 +24,7 @@ public class Specparam implements Serializable {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "numeric")
+    @Column(name = "`numeric`")
     private Boolean numeric;
 
     @Column(name = "unit")
