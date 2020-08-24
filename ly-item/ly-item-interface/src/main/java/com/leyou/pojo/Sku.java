@@ -1,15 +1,23 @@
 package com.leyou.pojo;
 
-import java.io.Serializable;
-import java.util.Date;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import tk.mybatis.mapper.annotation.KeySql;
+
 import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import lombok.Data;
-import tk.mybatis.mapper.annotation.KeySql;
+import javax.persistence.Transient;
+import java.io.Serializable;
+import java.util.Date;
 
 @Data
 @Table(name = "tb_sku")
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Sku implements Serializable {
     @Id
     @KeySql(useGeneratedKeys = true)
@@ -41,6 +49,9 @@ public class Sku implements Serializable {
 
     @Column(name = "last_update_time")
     private Date lastUpdateTime;
+
+    @Transient
+    private Integer stock;
 
     private static final long serialVersionUID = 1L;
 }

@@ -76,4 +76,15 @@ public class BrandController {
         System.out.println("bid = " + bid);
         return ResponseEntity.status(HttpStatus.OK).build();
     }
+
+    /**
+     * 根据分类Category_ID来查询Brand表信息
+     * @param cid
+     * @return
+     */
+    @GetMapping("cid/{cid}")
+    public ResponseEntity<List<Brand>> queryBrandByCid(@PathVariable Long cid){
+        System.out.println(cid);
+        return ResponseEntity.ok(brandService.queryBrandByCid(cid));
+    }
 }

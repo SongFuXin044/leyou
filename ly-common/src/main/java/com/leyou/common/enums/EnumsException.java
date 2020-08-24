@@ -24,7 +24,26 @@ public enum EnumsException {
     IMAGE_NOT_FOUND(404,"文件类型为空"),
     IMAGE_UPLOAD_ERROR(500,"图片上传失败"),
     UPDATE_CATEGORY_BRAND_ERROR(500,"修改商品信息失败"),
-    DELETE_BRAND_CATEGORY_ERROR(500,"删除商品信息失败")
+    DELETE_BRAND_CATEGORY_ERROR(500,"删除商品信息失败"),
+    SELECT_SPECGROUP_LIST_NOTFOUND(500,"分组未查询到"),
+    SELECT_SPECPARAM_LIST_NOTFOUND(500,"分组未查询到"),
+    ADD_SPECGROUP_ERROR(500,"添加分组错误"),
+    UPDATE_SPECGROUP_ERROR(500,"修改分组错误"),
+    DELETE_SPECPARAM_ERROR(500,"删除规格错误"),
+    ADD_SPECPARAM_ERROR(500,"添加规格错误"),
+    DELETE_SPECGROUP_ERROR(500,"删除分组失败"),
+    UPDATE_SPECPARAM_ERROR(500,"修改规格失败"),
+    SPU_INSRT_ERROR(500,"商品信息新增操作失败"),
+    SPUDETAIL_INSRT_ERROR(500,"商品详情新增操作失败"),
+    SKU_INSRT_ERROR(500,"商品参数新增操作失败"),
+    STOCK_INSERT_ERROR(500,"库存新增操作失败"),
+    SELECT_SPUDETAILBYSPUID_ERROR(500,"查询错误"),
+    SPU_NOT_FOUND(404,"商品ID不存在"),
+    DELETE_STOCKADNSKUS_ERROR(500,"删除SKUS和库存出错"),
+    UPDATE_SPUDEATIL_ERROR(500,"更新SPUDETAIL出错"),
+    UPDATE_SPU_ERROR(500,"更新SPU表错误"),
+    DELETE_SPU_ERROR(500,"删除SPU表错误"),
+    DELETE_SPUDETAIL_ERROR(500,"删除SPUDETAIL表错误"),
     ;
     public int code; //状态码
     public String msg;//错误信息

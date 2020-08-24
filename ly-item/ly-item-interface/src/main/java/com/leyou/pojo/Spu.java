@@ -6,8 +6,10 @@ import tk.mybatis.mapper.annotation.KeySql;
 import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 @Data
 @Table(name = "tb_spu")
@@ -45,6 +47,16 @@ public class Spu implements Serializable {
 
     @Column(name = "last_update_time")
     private Date lastUpdateTime;
+
+    @Transient
+    private String bname;
+    @Transient
+    private String cname;
+
+    @Transient
+    private Spudetail spuDetail;
+    @Transient
+    private List<Sku> skus;
 
     private static final long serialVersionUID = 1L;
 }

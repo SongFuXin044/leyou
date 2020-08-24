@@ -1,15 +1,16 @@
 package com.leyou.pojo;
 
-import java.io.Serializable;
+import lombok.Data;
+
 import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import lombok.Data;
-import tk.mybatis.mapper.annotation.KeySql;
+import java.io.Serializable;
 
 @Data
 @Table(name = "tb_spu_detail")
 public class Spudetail implements Serializable {
+    @Id
     @Column(name = "spu_id")
     private Long spuId;
 

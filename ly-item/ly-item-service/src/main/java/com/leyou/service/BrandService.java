@@ -145,4 +145,10 @@ public class BrandService {
             throw new lyException(EnumsException.DELETE_BRAND_CATEGORY_ERROR);
         }
     }
+
+
+    public List<Brand> queryBrandByCid(Long cid){
+        List<Brand> brands = brandMapper.queryBrandByCid(cid);
+        return brands;
+    }
 }

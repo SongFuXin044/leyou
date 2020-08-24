@@ -1,7 +1,7 @@
 package com.leyou.mapper;
 
+import com.leyou.common.pojo.BaseMapper;
 import com.leyou.pojo.Stock;
-import tk.mybatis.mapper.common.Mapper;
 
-public interface StockMapper extends Mapper<Stock> {
+public interface StockMapper extends BaseMapper<Stock,Long> {
 }

@@ -1,7 +1,7 @@
 package com.leyou.mapper;
 
+import com.leyou.common.pojo.BaseMapper;
 import com.leyou.pojo.Spu;
-import tk.mybatis.mapper.common.Mapper;
 
-public interface SpuMapper extends Mapper<Spu> {
+public interface SpuMapper extends BaseMapper<Spu,Long> {
 }
